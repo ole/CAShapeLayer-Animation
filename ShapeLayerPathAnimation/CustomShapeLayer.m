@@ -46,7 +46,7 @@
             // The path property has not been updated to the new value yet
             pathAnimation.fromValue = (id)self.path;
             // Compute the new value for path
-            pathAnimation.toValue = (id)[self shapeForBounds:self.bounds];
+            pathAnimation.toValue = (id)[[self shapeForBounds:self.bounds] CGPath];
             
             [self addAnimation:pathAnimation forKey:@"path"];
         }
