@@ -12,20 +12,9 @@
 		5D14A6A1198142430072CEE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D14A6A0198142430072CEE9 /* ViewController.m */; };
 		5D14A6A4198142430072CEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D14A6A2198142430072CEE9 /* Main.storyboard */; };
 		5D14A6A6198142430072CEE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D14A6A5198142430072CEE9 /* Images.xcassets */; };
-		5D14A6B2198142430072CEE9 /* ShapeLayerPathAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D14A6B1198142430072CEE9 /* ShapeLayerPathAnimationTests.m */; };
 		5D14A6BD198142750072CEE9 /* CustomShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D14A6BC198142750072CEE9 /* CustomShapeView.m */; };
 		5D14A6C0198142830072CEE9 /* CustomShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D14A6BF198142830072CEE9 /* CustomShapeLayer.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5D14A6AC198142430072CEE9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5D14A68D198142430072CEE9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5D14A694198142430072CEE9;
-			remoteInfo = ShapeLayerPathAnimation;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5D14A695198142430072CEE9 /* ShapeLayerPathAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeLayerPathAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +26,6 @@
 		5D14A6A0198142430072CEE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D14A6A3198142430072CEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D14A6A5198142430072CEE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5D14A6AB198142430072CEE9 /* ShapeLayerPathAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapeLayerPathAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D14A6B0198142430072CEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D14A6B1198142430072CEE9 /* ShapeLayerPathAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerPathAnimationTests.m; sourceTree = "<group>"; };
 		5D14A6BB198142750072CEE9 /* CustomShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomShapeView.h; sourceTree = "<group>"; };
 		5D14A6BC198142750072CEE9 /* CustomShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomShapeView.m; sourceTree = "<group>"; };
 		5D14A6BE198142830072CEE9 /* CustomShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomShapeLayer.h; sourceTree = "<group>"; };
@@ -54,13 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D14A6A8198142430072CEE9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				5D14A697198142430072CEE9 /* ShapeLayerPathAnimation */,
-				5D14A6AE198142430072CEE9 /* ShapeLayerPathAnimationTests */,
 				5D14A696198142430072CEE9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				5D14A695198142430072CEE9 /* ShapeLayerPathAnimation.app */,
-				5D14A6AB198142430072CEE9 /* ShapeLayerPathAnimationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,23 +86,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5D14A6AE198142430072CEE9 /* ShapeLayerPathAnimationTests */ = {
-			isa = PBXGroup;
-			children = (
-				5D14A6B1198142430072CEE9 /* ShapeLayerPathAnimationTests.m */,
-				5D14A6AF198142430072CEE9 /* Supporting Files */,
-			);
-			path = ShapeLayerPathAnimationTests;
-			sourceTree = "<group>";
-		};
-		5D14A6AF198142430072CEE9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D14A6B0198142430072CEE9 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,24 +106,6 @@
 			productReference = 5D14A695198142430072CEE9 /* ShapeLayerPathAnimation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D14A6AA198142430072CEE9 /* ShapeLayerPathAnimationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5D14A6B8198142430072CEE9 /* Build configuration list for PBXNativeTarget "ShapeLayerPathAnimationTests" */;
-			buildPhases = (
-				5D14A6A7198142430072CEE9 /* Sources */,
-				5D14A6A8198142430072CEE9 /* Frameworks */,
-				5D14A6A9198142430072CEE9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5D14A6AD198142430072CEE9 /* PBXTargetDependency */,
-			);
-			name = ShapeLayerPathAnimationTests;
-			productName = ShapeLayerPathAnimationTests;
-			productReference = 5D14A6AB198142430072CEE9 /* ShapeLayerPathAnimationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,10 +117,6 @@
 				TargetAttributes = {
 					5D14A694198142430072CEE9 = {
 						CreatedOnToolsVersion = 6.0;
-					};
-					5D14A6AA198142430072CEE9 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = 5D14A694198142430072CEE9;
 					};
 				};
 			};
@@ -196,7 +134,6 @@
 			projectRoot = "";
 			targets = (
 				5D14A694198142430072CEE9 /* ShapeLayerPathAnimation */,
-				5D14A6AA198142430072CEE9 /* ShapeLayerPathAnimationTests */,
 			);
 		};
 /* End PBXProject section */
@@ -208,13 +145,6 @@
 			files = (
 				5D14A6A4198142430072CEE9 /* Main.storyboard in Resources */,
 				5D14A6A6198142430072CEE9 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5D14A6A9198142430072CEE9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,23 +163,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D14A6A7198142430072CEE9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D14A6B2198142430072CEE9 /* ShapeLayerPathAnimationTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5D14A6AD198142430072CEE9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5D14A694198142430072CEE9 /* ShapeLayerPathAnimation */;
-			targetProxy = 5D14A6AC198142430072CEE9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5D14A6A2198142430072CEE9 /* Main.storyboard */ = {
@@ -345,6 +259,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ShapeLayerPathAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,42 +271,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ShapeLayerPathAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		5D14A6B9198142430072CEE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeLayerPathAnimation.app/ShapeLayerPathAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShapeLayerPathAnimationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-			};
-			name = Debug;
-		};
-		5D14A6BA198142430072CEE9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShapeLayerPathAnimation.app/ShapeLayerPathAnimation";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ShapeLayerPathAnimationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
 		};
@@ -414,14 +296,7 @@
 				5D14A6B7198142430072CEE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5D14A6B8198142430072CEE9 /* Build configuration list for PBXNativeTarget "ShapeLayerPathAnimationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5D14A6B9198142430072CEE9 /* Debug */,
-				5D14A6BA198142430072CEE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
